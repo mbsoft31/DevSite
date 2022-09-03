@@ -1,0 +1,53 @@
+{
+  "data": {
+    "books": [
+      {
+        "id": 1,
+        "title": "Program your brain right",
+        "slug": "program_your_brain_right",
+        "thumb": "/data/books/1/program_your_brain_right.png",
+        "date": "2022-08-31",
+        "tags": ["markdown", "code", "features"],
+        "draft": false,
+        "content": "/data/books/1/program_your_brain_right.mdx",
+        "price": "9.00"
+      },
+      {
+        "id": 2,
+        "title": "أنوي الوفرة",
+        "slug": "i_intend_abundance",
+        "thumb": "/data/books/2/anwi_alwafra.png",
+        "date": "2022-08-31",
+        "tags": [
+          "awareness", "free choice", "the will to change", "الوعي", "الاختيار الحر", "ألإرادة في التغيير"
+        ],
+        "draft": false,
+        "content": "/data/books/2/i_intend_abundance.mdx",
+        "price": 10.98
+      }
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "title": "طاقة البدايات",
+        "slug": "طاقة_البدايات",
+        "price": "free",
+        "date": "2022-08-31",
+        "attachments": [
+          {
+            "name": "التفريغ النصي للدورة",
+            "filename": "transcription-ta9at-bidayat",
+            "type": "pdf",
+            "url": "public/data/courses/1/transcription-ta9at-bidayat.pdf"
+          },
+          {
+            "name": "ملف التمارين",
+            "filename": "ex-files",
+            "type": "pdf",
+            "url": "/data/courses/1/ex-files.pdf"
+          }
+        ]
+      }
+    ]
+  }
+}

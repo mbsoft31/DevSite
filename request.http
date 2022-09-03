@@ -1,0 +1,30 @@
+###
+GET http://localhost:3000/api/books?user=123&sort=ASC
+Content-Type: application/json; charset=utf-8
+
+###
+
+POST http://localhost:3000/api/books
+Content-Type: application/json; charset=utf-8
+
+{
+  "id": 3,
+  "title": "Building a full NextJs app",
+  "slug": "building_a_full_nextjs_app",
+  "thumb": "/data/books/3/building_a_full_nextjs_app.png",
+  "date": "2022-08-31",
+  "tags": ["markdown", "code", "features"],
+  "draft": false,
+  "content": "---\r\nid: 2\r\ntitle: أنوي الوفرة\r\nslug: i_intend_abundance\r\nprice: 10.98\r\ndate: '2022-08-31'\r\ntags: ['awareness', 'free choice', 'the will to change', 'الوعي', 'الاختيار الحر', 'ألإرادة في التغيير']\r\ndraft: false\r\nimages:\r\n  - filename: anwi_alwafra.png\r\n    width: 750\r\n    height: 750\r\n    src: /data/books/2/anwi_alwafra.png\r\nsummary: ''\r\n---\r\n\r\n# حول الكتاب\r\nفي هذا الكتاب برنامج متكامل يساهم بشكل فعال في تغيير علاقتك مع المال ويصنع لك وعي خاص جديد ومميز لتنظر من خلاله للمال ولكل ما يتعلق به ستحدد فيه معتقداتك الخاصة بالمال وتتحرر مما لا تريد وتصنع ما يجعلك تحصل على الدعم المستمر والسيطرة الكاملة على عقلك لتغيير حقيقي من الداخل للخارج بغض النظر عما حدث في ماضيك وبغض النظر عن ظروفك الحالية.\r\n\r\nلديك ثلاث اشياء أساسية قادرة على فعل ذلك وهي:\r\n - الوعي\r\n - الاختيار الحر\r\n - والارادة في التغيير\r\n\r\nبهم ستشبك مع طاقة الوفرة وتتوسع أكثر فأكثر.\r\n\r\n** اقرأ بعناية الكتاب.. احرص على تطبيق التمارين بالترتيب.. وترقب كل الخير والنتائج الجميلة منه. **",
+  "price": "29.00"
+}
+
+###
+GET http://localhost:3000/api/books/1/program_your_brain_right
+Content-Type: application/json; charset=utf-8
+
+###
+GET http://localhost:3000/api/courses?user=123&sort=ASC
+Content-Type: application/json; charset=utf-8
+
+###

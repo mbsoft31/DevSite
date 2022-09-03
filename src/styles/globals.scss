@@ -1,0 +1,10 @@
+@tailwind base;
+
+[dir='rtl'] {
+    * {
+        --tw-space-x-reverse: 1 !important;
+      }
+}
+
+@tailwind components;
+@tailwind utilities;

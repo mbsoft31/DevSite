@@ -1,0 +1,106 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "المقدمة",
+      "slug": "",
+      "date": "2022-08-31",
+      "content": {
+        "type": "audio",
+        "attachments": [
+          {
+            "name": "المقدمة",
+            "filename": "intro",
+            "type": "mp3",
+            "url": "public/data/courses/1/lessons/1/intro.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "الاختيار الأول",
+      "slug": "الاختيار_الأول",
+      "date": "2022-08-31",
+      "content": {
+        "type": "audio",
+        "attachments": [
+          {
+            "name": "الاختيار الأول",
+            "filename": "choice1",
+            "type": "mp3",
+            "url": "public/data/courses/1/lessons/2/choice1.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "الاختيار الثاني",
+      "slug": "الاختيار_الثاني",
+      "date": "2022-08-31",
+      "content": {
+        "type": "audio",
+        "attachments": [
+          {
+            "name": "الاختيار الثاني",
+            "filename": "choice2",
+            "type": "mp3",
+            "url": "public/data/courses/1/lessons/3/choice2.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "الاختيار الثالث",
+      "slug": "الاختيار_الثالث",
+      "date": "2022-08-31",
+      "content": {
+        "type": "audio",
+        "attachments": [
+          {
+            "name": "الاختيار الثالث",
+            "filename": "choice3",
+            "type": "mp3",
+            "url": "public/data/courses/1/lessons/4/choice3.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "الاختيار الرابع",
+      "slug": "الاختيار_الرابع",
+      "date": "2022-08-31",
+      "content": {
+        "type": "audio",
+        "attachments": [
+          {
+            "name": "الاختيار الرابع",
+            "filename": "choice4",
+            "type": "mp3",
+            "url": "public/data/courses/1/lessons/5/choice4.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "الاختيار الخامس",
+      "slug": "الاختيار_الخامس",
+      "date": "2022-08-31",
+      "content": {
+        "type": "audio",
+        "attachments": [
+          {
+            "name": "الاختيار الخامس",
+            "filename": "choice5",
+            "type": "mp3",
+            "url": "public/data/courses/1/lessons/6/choice5.mp3"
+          }
+        ]
+      }
+    }
+  ]
+}

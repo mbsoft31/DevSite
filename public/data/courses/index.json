@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "طاقة البدايات",
+      "slug": "طاقة_البدايات",
+      "price": "free",
+      "date": "2022-08-31",
+      "attachments": [
+        {
+          "name": "التفريغ النصي للدورة",
+          "filename": "transcription-ta9at-bidayat",
+          "type": "pdf",
+          "url": "public/data/courses/1/transcription-ta9at-bidayat.pdf"
+        },
+        {
+          "name": "ملف التمارين",
+          "filename": "ex-files",
+          "type": "pdf",
+          "url": "/data/courses/1/ex-files.pdf"
+        }
+      ]
+    }
+  ]
+}
