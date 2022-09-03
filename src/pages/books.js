@@ -52,7 +52,7 @@ const BookList = ({ books, ...props}) => {
                   <p>{book.price}</p>
                 </div>
                 <div className="flex flex-wrap gap-2 mt-1">{book.tags && book.tags.map(tag => (
-                  <span className="block text-xs px-2 py-px border rounded-md bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600">{tag}</span>
+                  <span key={`${tag}-${book.id}`} className="block text-xs px-2 py-px border rounded-md bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600">{tag}</span>
                 ))}</div>
               </div>
             ))
